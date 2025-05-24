@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <title></title>
+
+    <!--Favicon-->
+    <link rel="icon" href="" type="image/jpg">
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Line Awesome CSS -->
+    <link href="assets/css/line-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="assets/css/fontAwesomePro.css" rel="stylesheet">
+    <!-- Flaticon CSS -->
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Video -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <!-- Slick Slider CSS -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Nice Select  -->
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <!-- Back to Top -->
+    <link href="assets/css/backToTop.css" rel="stylesheet">
+    <!-- Metis Menu -->
+    <link href="assets/css/metismenu.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+<!-- jQuery (Required by Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+    <!-- Mouse Cursor  -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+
+    <!-- Header Top Area -->
+
+    <!-- <div class="header-top-area dark-bg-1">
+        <div class="container">
+            <div class="header-top-inner d-flex align-items-center">
+                <div class="social-area">
+                    <a href="#">Facebook</a> <span>.</span>
+                    <a href="#">Twitter</a> <span>.</span>
+                    <a href="#">Linkedin</a> <span>.</span>
+                    <a href="#">Instagram</a>
+                </div>
+                <div class="authentication-area">
+                    <a href="#">Login/Sign in</a>
+                </div>
+                <div class="contact-info">
+                    <span>info@abotech99-case.com / +228-3621.23686</span>                
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Header Area  -->
+
+    <div id="header-sticky" class="header-area">
+        <div class="navigation">
+            <div class="container">
+                <div class="header-inner-box">
+                    <div class="header-btn">
+                        <div class="menu-trigger">
+                            <span class="lines"></span>
+                            <span class="lines"></span>
+                            <span class="lines"></span>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="./png_logo(1)[1] 1.png"
+                                style="height: 99px; object-fit: contain;" alt=""></a>
+                    </div>
+
+                    <div class="main-menu d-none d-lg-block">
+                        <ul>
+                            <li><a href="#">Home</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="index.html">Home - One</a></li>
+                                    <li><a href="index-2.html">Home - Two</a></li>
+                                    <li><a href="index-3.html">Home - Three</a></li> 
+                                </ul> -->
+                            </li>
+                            <li><a href="#">Pages</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="about.html">About</a></li>                                    
+                                    <li><a href="team.html">Our Team</a></li>
+                                    <li><a href="price.html">Pricing Plans</a></li>
+                                    <li><a href="faq.html">FAQ Page</a></li>                                    
+                                </ul> -->
+                            </li>
+
+                            <li><a href="#">Services</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                </ul> -->
+                            </li>
+
+                            <li><a href="#">Projects</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="projects.html">Projects</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="#">Blog</a>
+                                <!-- <ul class="sub-menu">
+                                    <li><a href="blog-grid.html">Blog - Grid</a></li>
+                                    <li><a href="blog-standard.html">Blog - Standard</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul> -->
+                            </li>
+
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-nav-bar d-block col-6 d-lg-none">
+                        <div class="mobile-nav-wrap">
+                            <div id="hamburger">
+                                <i class="las la-bars"></i>
+                            </div>
+                            <!-- mobile menu - responsive menu  -->
+                            <div class="mobile-nav">
+                                <button type="button" class="close-nav">
+                                    <i class="las la-times-circle"></i>
+                                </button>
+                                <nav class="sidebar-nav">
+                                    <ul class="metismenu" id="mobile-menu">
+                                        <li><a class="has-arrow" href="#">Homes</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Home - One</a></li>
+                                                <li><a href="index-2.html">Home - Two</a></li>
+                                                <li><a href="index-3.html">Home - Three</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has-arrow" href="#">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="team.html">Our Team</a></li>
+                                                <li><a href="price.html">Pricing Plans</a></li>
+                                                <li><a href="faq.html">FAQ Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has-arrow" href="#">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="service-details.html">Services Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has-arrow" href="#">Project</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="project-details.html">Project Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has-arrow" href="#">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog-grid.html">Blog - Grid</a></li>
+                                                <li><a href="blog-standard.html">Blog - Standard</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="header-right">
+                        <!-- <div class="search-trigger d-none d-lg-block">
+                            <a href="#"><i class="fal fa-search"></i></a>
+                        </div> -->
+                        <a href="contact.html" class="theme-btn d-none d-lg-block">Let's Talk <i
+                                class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner Section  -->
+    <div class="banner-section dark-bg-2 pb-90" data-background="assets/img/banner-bg.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-10 col-lg-10 col-md-10">
+                    <div class="banner-area-content wow fadeInUp animated" data-wow-delay="200ms">
+                        <h1>Unlock the Power of Intelligent Robotics</h1>
+                        <p style="text-align: justify;"> At A1 Robotic & Automation, we bring the future of technology
+                            to your business today. Our intelligent robotic systems are designed to streamline
+                            operations, reduce manual workloads, and enhance precision across industries Whether you're
+                            in manufacturing, logistics, or any other sector.</p>
+                        <a class="theme-btn" href="about.html">Discover More <i class="las la-arrow-right"></i></a>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 text-lg-end align-items-center">
+                    <a href="about.html">
+                        <div class="circle-button in-bord">
+                            <div class="rotate-circle fz-30 text-u">
+                                <svg class="textcircle" viewBox="0 0 500 500">
+                                    <defs>
+                                        <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath xlink:href="#textcircle" textLength="900">Contact with Us
+                                            -
+                                            Contact with Us -</textPath>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="arrow">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="banner-slider dark-bg-2">
+        <div class="container">
+            <div class="row">
+                <div class="banner-img-wrap">
+                    <div class="single-slide-item">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D12AQEk8qJv39VxkQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1699597991527?e=2147483647&v=beta&t=FrfYcJG5fCrJ_dlzlWa7gKXEPKCbyolrDIGOLZd1E1E"
+                            style="height: 100vh;" alt="">
+                    </div>
+                    <div class="single-slide-item">
+                        <img src="https://www.eletimes.com/wp-content/uploads/2025/03/62e978cb02fc431d73f3dd62_Industrial-robot.jpg "
+                            style="height: 100vh;" alt="">
+                    </div>
+                    <div class="single-slide-item">
+                        <img src="https://aiut.com/wp-content/uploads/2020/04/00_top_Bran%C5%BCe.jpg"
+                            style="height: 100vh;" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Feature Section  -->
+
+    <div class="feature-section dark-bg-2 section-padding pb-30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-10 text-center">
+                    <div class="section-title wow fadeInUp animated" data-wow-delay="100ms">
+                        <h2>We Have Than More <span>10+ Years of Experience</span> in Industrial Robotics & Automation
+                            Excellence</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-60">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="feature-item-wrap">
+                        <div class="feature-icon">
+                            <!-- <i class="flaticon-quality"></i> -->
+                            <img src="./download (24).png" style="padding: 15px;" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Decades of Expertise
+                            </h4>
+                            <p style="text-align: justify;">With over 50 years of combined experience, our team delivers
+                                unmatched knowledge in industrial robotics, automation systems, and cutting-edge
+                                solutions </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="feature-item-wrap">
+                        <div class="feature-icon">
+                            <img src="./download.png" style="padding: 10px;" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h4>End-to-End Automation</h4>
+                            <p style="text-align: justify;">From robot programming to custom machine design and
+                                industrial robot trading, we offer comprehensive services tailored to meet your unique
+                                operational </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow fadeInUp animated" data-wow-delay="300ms">
+                    <div class="feature-item-wrap">
+                        <div class="feature-icon">
+                            <img src="./download (1).png" style="padding: 10px;" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h4>Trusted by Industry Leaders</h4>
+                            <p style="text-align: justify;">Backed by a legacy of quality, innovation, and client
+                                satisfaction, A1 Robotic & Automation is the go-to partner for scalable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section  -->
+    <div class="about-section dark-bg-1 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about-content-wrap wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="section-title">
+                            <!-- <h6>About Us</h6> -->
+                            <h3>Engineering the Future with Smart Automation
+                            </h2>
+                        </div>
+                        <p style="text-align: justify;">At A1 Robotics & Automation, we are dedicated to transforming the future of manufacturing through cutting-edge industrial robot programming solutions. With a deep understanding of the evolving needs of modern industries, we design and deliver intelligent automation strategies that are tailored to optimize each client’s unique processes.
+
+Our core focus is on enhancing productivity, precision, and operational efficiency by integrating advanced robotics into existing workflows. Whether it's streamlining complex production lines, enabling adaptive automation, or ensuring seamless multi-robot coordination, we bring innovative thinking and technical excellence to every project.
+</p>
+                            <!-- Include Bootstrap in <head> -->
+
+
+                        <a href="about.html" class="theme-btn mt-30">Read More <i class="las la-arrow-right"></i></a>
+                        <!-- <div class="about-text mt-150 text-lg-end">
+                            <h4>Our Vision</h4>
+                            <p>Nam libero tempore, cum soluta nobis eligendi optio cumque nihil impedit quo minus
+                                placeat assumenda est, omnis dolor repellendus. Temporibu quibusdam et aut officiis
+                                debitis aut rerum </p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about-img-wrap">
+                        <div class="img-one wow fadeInUp animated" data-wow-delay="200ms">
+                            <img src="https://www.therobotreport.com/wp-content/uploads/2019/06/Industrial-Robot-Sales-Broke-Records-in-2018.jpg" alt="">
+                        </div>
+                        <!-- <div class="img-two wow fadeInUp animated" data-wow-delay="300ms">
+                            <img src="./assets/img/icon/download.png" alt="">
+                        </div> -->
+                        <!-- <div class="about-text mt-100">
+                            <h4>Our Mission</h4>
+                            <p>Nam libero tempore, cum soluta nobis eligendi optio cumque nihil impedit quo minus
+                                placeat assumenda est, omnis dolor repellendus. Temporibu quibusdam et aut officiis
+                                debitis aut rerum </p>
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<style>
+  .mission-vision-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #0E0E0E;
+    text-align: center;
+  }
+  .mv-block {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  .mv-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+    .mission-vision-section {
+      flex-direction: column;
+    }
+  }
+</style>
+
+
+
+    <!-- Funfacts -->
+    <div class="funfacts_line dark-bg-1">
+        <div class="funfacts_item">
+            <h5 class="text-white"><img src="assets/img/star.png" alt=""> 2.3K+ Success Project</h5>
+            <h5 class="text-white stroke"><img src="assets/img/star.png" alt=""> 2K Happy Clients</h5>
+            <h5 class="text-white"><img src="assets/img/star.png" alt=""> 80+ Team Members </h5>
+            <h5 class="text-white stroke"><img src="assets/img/star.png" alt=""> 3.5K Cup of Tea</h5>
+        </div>
+    </div>
+
+    <!-- Service Section  -->
+    <div class="service-section dark-bg-1 section-padding pb-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-lg-8 text-center">
+                    <div class="section-title wow fadeInUp animated" data-wow-delay="100ms">
+                        <h6>Our Services</h6>
+                        <h2>A1 Robotic range of robot
+                            engineering services include</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/1.png" alt="">
+                        </div>
+                        <h4>Simulation and Off-Line </h4>
+                        <p style="text-align:  justify;">At A1 Robotic & Automation, we offer advanced Simulation and
+                            Off-Line Programming (OLP) services to optimize your robotic processes </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/2.png" alt="">
+                        </div>
+                        <h4>On-site Robot Programming
+                        </h4>
+                        <p style="text-align: justify;">A1 Robotic & Automation provides expert On-site Robot
+                            Programming services to ensure your automation systems run smoothly, efficiently </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="300ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/3.png" alt="">
+                        </div>
+                        <h4>Training & Support</h4>
+                        <p>we believe that empowering your team is just as important as delivering top-tier automation
+                            solutions. Our Training & Support services are designed </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="400ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/4.png" alt="">
+                        </div>
+                        <h4>Robot Cell Calibration</h4>
+                        <p>Robot Cell Calibration services to ensure your robotic systems operate with maximum accuracy
+                            and consistency. </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="500ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/5.png" alt="">
+                        </div>
+                        <h4>Design and Consultancy</h4>
+                        <p>we design them from the ground up. Our Design and Consultancy service helps you turn
+                            automation ideas into fully optimized.
+
+                        </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="600ms">
+                    <div class="single-service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/icon/6.png" alt="">
+                        </div>
+                        <h4>Automation Line Shifting</h4>
+                        <p style="text-align: justify;">Automation Line Shifting is a specialized service focused on the
+                            seamless relocation, reconfiguration, </p>
+                        <a href="service-details.html" class="details-icon"><i class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Case Studies -->
+    <div class="funfacts_line dark-bg-1">
+        <div class="funfacts_item">
+            <h5 class="text-white"><img src="assets/img/star.png" alt=""> Our Case Studies</h5>
+            <h5 class="text-white stroke"><img src="assets/img/star.png" alt=""> Our Case Studies</h5>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+
+    <div class="project-section dark-bg-1 section-padding">
+        <div class="container">
+            <!-- <h3>Our services</h3> -->
+            <div class="row align-items-center">
+
+                <div class="col-xl-6 col-lg-6 col-12 wow fadeInLeft animated" data-wow-delay="200ms">
+
+                    <div class="single-project-wrap">
+                        <div class="single-project-inner">
+                            <h5><a href="project-details.html">Offline Programming (OLP)</a></h5>
+                            <p>Developing and simulating robot programs in a virtual environment before deploying .</p>
+                            <a href="project-details.html" class="details-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+                        <div class="single-project-inner">
+                            <h5><a href="project-details.html">Multi-Robot Coordination</a></h5>
+                            <p>Synchronizing multiple robots to work collaboratively, enhancing throughput </p>
+                            <a href="project-details.html" class="details-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+                        <div class="single-project-inner">
+                            <h5><a href="project-details.html">Adaptive Programming</a></h5>
+                            <p>Implementing programs that can adjust to variations in the production process, ensuring
+                                flexibility </p>
+                            <a href="project-details.html" class="details-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+                        <div class="single-project-inner">
+                            <h5><a href="project-details.html">Robot Integration </a></h5>
+                            <p>Providing end-to-end support for integrating robotic systems into your production line
+                                from initial setup </p>
+                            <a href="project-details.html" class="details-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-12 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="project-bg">
+                        <img src="https://filelist.tudelft.nl/_processed_/7/0/csm_hero_industriele_robot_2_3d48d7cbc3.jpg"
+                            style=" alt="">
+                        <a href=" projects.html" class="details-btn">View All Project <i
+                            class="las la-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial Section  -->
+
+
+    <!-- Choose Us Section  -->
+    <div class="choose-us-section light-bg section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-lg-8 text-center wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="section-title">
+                        <h6>Why Choose Us</h6>
+                        <h2>Pioneering Precision: Delivering Top-Quality Industrial Robots</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="single-choose-item">
+                        <span>01.</span>
+                        <h4>Expert Team with Global Experience
+                        </h4>
+                        <p>Our engineers bring over 30 years of cumulative experience in robotics and automation, backed
+                            by international exposure across the USA, Europe, China, South Korea, and Japan</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="single-choose-item">
+                        <span>02.</span>
+                        <h4>Comprehensive, Turnkey Solutions</h4>
+                        <p>From simulation to on-site programming, calibration, and automation line shifting, we deliver
+                            end-to-end robot engineering services tailored to meet your specific industrial automation
+                            needs.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="300ms">
+                    <div class="single-choose-item">
+                        <span>03.</span>
+                        <h4>Trusted by Industry Leaders
+                        </h4>
+                        <p style="">We are the preferred partners of top brands like Maruti Suzuki, Nissan, TVS Motors,
+                            and Thyssenkrupp, known for our reliability, technical excellence, and timely project
+                            delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section  -->
+    <div class="video-section">
+        <div class="container">
+            <div class="video-inner-box">
+                <div class="play-btn">
+                    <a href="https://www.youtube.com/watch?v=wXNv-x5zVgE" class="video-play-btn mfp-iframe">Play</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clients Section  -->
+    <div class="client-section section-padding">
+        <div class="container">
+            <div class="row text-center wow fadeInUp animated" data-wow-delay="100ms">
+                <h3 class="text-black">More than 200+ companies trusted us worldwide </h3>
+            </div>
+            <div class="row mt-60">
+                <div class="client-wrapper owl-carousel">
+                    <div class="single-client-item" style="border: 1px solid black;">
+                        <img src="./assets/img/clients/r1 (1).png" style="padding: 10px; " alt="">
+                    </div>
+                    <div class="single-client-item" style="border: 1px solid black;">
+                        <img src="./assets/img/clients/r1 (2).png" style="padding: 10px; " alt="">
+                    </div>
+                    <div class="single-client-item" style="border: 1px solid black;">
+                        <img src="./assets/img/clients/r1 (3).png" style="padding: 10px; " alt="">
+                    </div>
+                    <div class="single-client-item " style="border: 1px solid black;">
+                        <img src="./assets/img/clients/r1 (4).png" style="padding: 10px; " alt="">
+                    </div>
+                    <div class="single-client-item" style="border: 1px solid black;">
+                        <img src="./assets/img/clients/download (2).png" style="padding: 10px; "   alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- FAQ Section  -->
+    <div class="faq-section dark-bg-1 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="faq-img-wrap">
+                        <!-- <div class="img-right text-right wow fadeInUp animated" data-wow-delay="100ms">
+                            <img src="assets/img/faq-1.jpg" alt="">
+                        </div>
+                        <div class="img-left wow fadeInUp animated" data-wow-delay="200ms">
+                            <img src="assets/img/faq-2.jpg" alt="">
+                        </div> -->
+
+                        <img src="https://aiut.com/wp-content/uploads/2023/07/265499755_477027557382142_8863432799989152845_n-768x768.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="faq-content-wrap mt-md-120 wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="section-title">
+                            <h6>Question & Answer</h6>
+                            <h2>Frequently Asked Questions</h2>
+                        </div>
+                        <div class="cp-custom-accordion">
+                            <div class="accordions" id="accordionExample">
+                                <div class="accordion-items">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-buttons" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+
+                                            Do you offer customized automation systems?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                           Yes, at A1 Robotics & Automation, we offer fully customized automation systems tailored to meet the specific needs of your manufacturing processes. Whether you're looking to integrate new robotic technology
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-buttons collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Which brands do you work with?
+
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We work with Siemens, Mitsubishi, Allen-Bradley, Fanuc, ABB, and more.
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-buttons collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+
+                                            What is your project timeline?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Typical projects take 4–8 weeks from requirement finalization to deployment.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-items">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-buttons collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+
+                                            Do you offer AMC services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Yes, we provide Annual Maintenance Contracts with full support
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Newsletter Section  -->
+    <div class="newsletter-section dark-bg-3">
+        <div class="container">
+            <div class="newsletter-inner light-bg">
+                <h2>Join Our Newsletter</h2>
+                <p>Unlock the future of manufacturing — with A1 Robotics & Automation.</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter Your Mail">
+                    <input type="submit" value="Subscribed">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Area -->
+
+    <footer class="footer-area dark-bg-2">
+        <div class="container">
+            <div class="footer-up">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="social-area">
+                            <a href="#">Facebook</a> <span>.</span>
+                            <a href="#">Twitter</a> <span>.</span>
+                            <a href="#">Linkedin</a> <span>.</span>
+                            <a href="#">Instagram</a>
+                        </div>
+                        <h3 class="mt-40">Let's work together just drop me a line - info@a1roboticautomation.in
+
+
+                        </h3>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 mt-xs-60 wow fadeInUp animated" data-wow-delay="100ms">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>Our Office:</h6>
+                                <p class="mt-40">A607, Crystal Corner, Gat No.1585,Patil Nagar, Chikhali, Pune-411062
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Contact Us:</h6>
+                                <h3 class="mt-40">+91 8975553747</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Bottom Area -->
+
+    <div class="footer-bottom dark-bg-2">
+        <div class="container">
+            <div class="row justify-content-center align-items-center justify-content-center">
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="copyright-line">© 2024 Abotech. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-lg-end">
+                    <p class="privacy">Privacy Policy | Terms &amp; Conditions</p>
+                </div> -->
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <p style="color: white;">
+                        All Rights Reserved Designed & Developed By <a href="https://www.netcom-india.com/"> Netcom Business Solutions Pvt Ltd</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Dropdown -->
+
+    <div class="search-popup">
+        <span class="search-back-drop"></span>
+
+        <div class="search-inner">
+            <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                </div>
+                <button class="close-search"><span class="la la-times"></span></button>
+                <form method="post" action="https://iideainformatics.it/html/codersocean/abotech/index.html">
+                    <div class="form-group">
+                        <input type="search" name="search-field" value="" placeholder="Type your keyword" required="">
+                        <button type="submit"><i class="fal fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Off-canvas Area-->
+
+    <div class="extra-info">
+        <div class="close-icon menu-close">
+            <button>
+                <i class="las la-times"></i>
+            </button>
+        </div>
+        <div class="logo-side mb-30">
+            <div class="logo">
+                <a href="index.html"><img src="./png_logo(1)[1] 1.png" style="height: 130px; object-fit: contain;"
+                        alt=""></a>
+            </div>
+        </div>
+        <div class="side-info">
+            <div class="contact-list mb-40">
+                <!-- <h4>About</h4> -->
+                <p>We must explain to you how all seds this mistakens idea off denouncing</p>
+                <img src="https://wevolver-project-images.s3.us-west-1.amazonaws.com/0.t7x1cki7f9industrialrobotics.jpg" alt="">
+
+                <div class="mt-30 mb-30">
+                    <a href="contact.html" class="bordered-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="social-area-wrap">
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-facebook"></i></a>
+                <a href="#"><i class="lab la-linkedin"></i></a>
+                <a href="#"><i class="lab la-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas-overly"></div>
+
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+
+    <!-- Popper JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Way Points JS -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Counter Up JS -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Slick Slider JS -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="assets/js/jquery.sticky.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Back To Top JS -->
+    <script src="assets/js/backToTop.js"></script>
+    <!-- Metis Menu JS -->
+    <script src="assets/js/metismenu.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+<script>
+  $(document).ready(function(){
+    $(".client-wrapper").owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    });
+  });
+</script>
+
+
+<!-- Mirrored from iideainformatics.it/html/codersocean/abotech/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 May 2025 04:43:40 GMT -->
+
+</html>
