@@ -188,7 +188,7 @@ hr {
 
 /*Section Padding CSS*/
 .section-padding {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -261,7 +261,7 @@ hr {
 }
 
 .pt-70 {
-  padding-top: 70px;
+  /* padding-top: 70px; */
 }
 
 .pb-70 {
@@ -571,6 +571,7 @@ hr {
   .section-title h3 {
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1693,7 +1694,7 @@ input.form-control {
 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
-  width: 230px;
+  width: 300px;
   background-color: #0E0E0E;
   left: 0;
   z-index: 999;
@@ -2255,6 +2256,7 @@ a.more-service i {
 @media (max-width: 767px) {
   .about-content-wrap {
     max-width: calc(100% - 0px);
+    margin-bottom: 20px;
   }
 }
 
@@ -4201,9 +4203,9 @@ blockquote p {
 }
 
 .single-price-item {
-  border: 1px solid #1d1d1d;
+  border: 1px solid #3d3d3d;
   border-radius: 10px;
-  padding: 60px 35px;
+  padding: 50px 35px;
   transition: 0.3s ease;
 }
 @media (max-width: 767px) {
@@ -4260,7 +4262,7 @@ blockquote p {
   border-radius: 10px;
   padding: 16px;
   width: 100%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   text-align: center;
 }
 .single-price-item:hover {
@@ -4465,7 +4467,7 @@ blockquote p {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 75px;
+  width: 75px !important;
   height: 75px;
 }
 
@@ -4581,7 +4583,7 @@ blockquote p {
 
 .bread-img {
   position: relative;
-  bottom: -75px;
+  bottom: -20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bread-img {
