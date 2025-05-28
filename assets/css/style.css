@@ -188,7 +188,7 @@ hr {
 
 /*Section Padding CSS*/
 .section-padding {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -4606,3 +4606,10 @@ blockquote p {
 
 
  */
+
+
+ @media (max-width: 768px) {
+  .blog-category {
+    display: none;
+  }
+}
